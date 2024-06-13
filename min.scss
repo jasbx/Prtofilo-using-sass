@@ -1,0 +1,22 @@
+
+* {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  @import './components/reset';
+  @import './components/about';
+  @import './components/nav';
+  @import './components/project';
+  @import './components/reviews';
+  @import './components/header';
+  @import './components/footer';
+  @import './components/varibel';
+
+ 
+  body{
+    background-color: #211f21;
+  }
+
+ 

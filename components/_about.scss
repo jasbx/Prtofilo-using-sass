@@ -1,0 +1,23 @@
+.about{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    margin-top: 23rem;
+    padding: 3rem 5rem;
+    p{
+        line-height: 1.7;
+        color:#e8d4ef ;
+        width: 500px;
+        .title{
+            padding: 5px;
+            background: linear-gradient(to left ,#35d08f,#e32e64);
+            border-radius: 100px;
+        }
+    }
+    .two{
+        align-self: flex-end;
+    }
+}

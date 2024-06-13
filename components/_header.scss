@@ -1,0 +1,60 @@
+.frame-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    .grdient{
+        width: 72%;
+        height: 72%;
+        position: absolute;
+        bottom: 74px;
+       border: 10px ;
+        background:linear-gradient(to left,#35d08f,#e32e64);
+    }
+    header{
+        width: 70%;
+        height: 90%;
+        margin-top: 2rem;
+        background-image: url('/img/cliens/girl.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -280px;
+        position: relative;
+        @media screen and (max-width:700px){
+            background-position: center;
+            
+        }
+        .socal{
+            height: 100%;
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10px;
+            text-align: center;
+            .line{
+                margin: 0 auto;
+                width: 4px;
+                border-radius: 10px;
+                height: 20%;
+                background:#ae81bf ;
+            
+                
+            }
+            i{
+                font-size: 30px;
+                margin-bottom: 10px;
+                color: #fff;
+              
+            }
+        }
+
+        h1{
+            margin-left: 50px;
+            color: #fff;
+            font-size: 4rem;
+            font-weight: 800;
+            transform:translateY(-50px);
+        }
+    }
+}
